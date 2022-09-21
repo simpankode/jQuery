@@ -1,0 +1,88 @@
+:root{
+    --bg-color-1: rgb(0, 119, 255);
+    --bg-color-2: rgb(115, 255, 0);
+    --bg-color-3: rgb(255, 0, 157);
+    --bg-color-4: rgb(0, 132, 255);
+}
+
+
+/* root */
+
+#section1{
+    background-color: var(--bg-color-1);
+    padding: 10px;
+}
+
+#effect{
+    color: white;
+}
+
+#section2{
+    background-color: var(--bg-color-4);
+    padding: 10px;
+}
+
+#html{
+    color: white;
+}
+
+/* flip */
+
+#flip, #panel{
+    cursor: pointer;
+}
+
+#panel{
+    display: none;
+}
+
+/* animation */
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: var(--bg-color-3);
+    margin-top: 5px;
+}
+
+/* stop animation */
+
+#panel1, #flip1{
+    background-color: var(--bg-color-2);
+    padding: 5px;
+}
+
+#panel1{
+    display: none;
+    padding: 10px;
+}
+
+/* remove */
+
+#div1{
+    border: 1px solid black;
+    background-color: var(--bg-color-2);
+    padding: 10px;
+}
+
+/* cssClass */
+
+.important{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.blue{
+    color: blue;
+}
+
+/* dimensions */
+
+#dimensi{
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid black;
+    background-color: var(--bg-color-3);
+}
